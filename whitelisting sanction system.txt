@@ -1,0 +1,17 @@
+#Creating a sanction ID for whitelisting money transfer customers
+
+import random
+
+print('Generate sanction ID: ')
+
+sanction_ID = ''
+
+chars = '0123456789QWERTYUIOPASDFGHJKLZXCVBNM'
+
+for x in range(10):
+
+    sanction_ID +=  random.choice(chars)
+
+print(sanction_ID)
+
+
